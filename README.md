@@ -8,7 +8,7 @@ Esse formulário foi desenvolvido para realização de um desafio proposto por u
 
 ## Como ficou o Formulário?
 
-<img src="https://i.ibb.co/ggtbJZ4/GRAVA-O.gif">
+<img src="https://s7.gifyu.com/images/GRAVACAO.gif">
 
 Espero que tenho gostado desse projeto.<br>
 Agradeço o interesse! 😁
