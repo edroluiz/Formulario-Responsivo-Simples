@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+
+    <title>Document</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h2>Peça seu orçamento agora mesmo!</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control left">
+          <input autocomplete="off" type="text" id="username" required />
+          <span>Nome</span>
+        </div>
+
+        <div class="form-control right">
+          <input autocomplete="off" type="text" id="email" required/>
+          <span>E-mail</span>
+        </div>
+
+        <div class="form-control left">
+          <input
+            autocomplete="off"
+            type="tel"
+            id="phone"
+            size="20"
+            minlength="0"
+            maxlength="14"
+            required
+          />
+          <span>Telefone</span>
+        </div>
+
+        <div class="form-control right">
+          <select id="services" required>
+            <option value="" disabled selected></option>
+            <option value="1">Marketing digital para aumento de vendas</option>
+            <option value="2">Performance (Anúncios)</option>
+            <option value="3">Gestão de redes sociais</option>
+            <option value="4">SEO</option>
+            <option value="5">Outros serviços</option>
+          </select>
+          <span>Escolha o serviço que deseja</span>
+        </div>
+
+        <div class="form-control center">
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="33"
+            required
+          ></textarea>
+          <span>Mensagem</span>
+        </div>
+
+        <button type="submit" class="submit" onclick="SuccessMessage()">
+          Enviar
+        </button>
+        
+      </form>
+
+  </body>
+  
+</html>
